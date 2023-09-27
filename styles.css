@@ -1,0 +1,95 @@
+
+
+
+
+
+
+body {
+    font-family:'Segoe UI';
+    color: black;
+    background-color: white;
+    font-size: larger;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+      
+}
+.Cara-Header {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.search-bar-cart {
+    display: flex;
+    align-items: flex-end;
+    
+        
+}
+.peachy-logo {
+    height: 70px;   
+
+}
+li {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    color: black;
+    text-align:center;
+}
+
+/* Basic flex styles, applied to the top h1 header element */
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* Styles for the div container with the tree background image */
+.gradient-container {
+    background-image: linear-gradient(to right, black, transparent, black), url(assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg);
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+/* Styles for the div container wrapping our 4 words */
+.image-text {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    padding-left: 10%;
+    padding-top: 6%;
+    color: white;
+}
+
+.image-text2 {
+    display: flex;
+    flex-direction: column;
+    font-size:30px;
+    padding-left: 1200px;
+    padding-top: 200px;
+    color:white;
+}
+.about-tall-whispy {
+    height: 550px;
+    width: 350px;
+}
+.about-white-beads {
+    height: 350px;
+    width: 250px;
+}
+.about {
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-card {
+    height: 250px;
+    width: 250px;
+    
+}
+.product-text {
+    font-size: 50%;
+}
